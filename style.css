@@ -1,0 +1,21 @@
+body{
+    
+    font-family: Roboto;
+}
+.header-logo{
+    color: #95E1D3;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+}
+.nav-list{
+    color: #95E1D3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-link:hover{
+    color: #F38181;
+}
