@@ -1,21 +1,104 @@
-body{
-    
-    font-family: Roboto;
+body {
+  font-family: Roboto;
+  line-height: normal;
 }
-.header-logo{
-    color: #95E1D3;
-font-family: Montserrat;
-font-size: 30px;
-font-weight: 700;
-line-height: normal;
+
+/* ===============header============= */
+.header {
 }
-.nav-list{
-    color: #95E1D3;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
+.header-logo {
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
 }
-.nav-link:hover{
-    color: #F38181;
+.slice-logo {
+  color: #f38181;
+}
+.header-nav {
+}
+
+.nav-list {
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav-item {
+}
+
+.nav-link {
+}
+.nav-link:hover {
+  color: #f38181;
+}
+
+/* ===============services============== */
+.services {
+  color: #333;
+  font-weight: 400;
+}
+.services-subtitle {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+}
+
+.services-title {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
+.services-list {
+}
+.services-item {
+}
+.services-image {
+}
+.services-item-title {
+  /* uppercase */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.services-item-text {
+  color: #b6b6b6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.service-image {
+}
+
+/* ==========team============= */
+
+.team {
+}
+.team-subtitle {
+}
+.team-title {
+}
+.team-text {
+}
+.team-list {
+}
+.team-item {
+}
+.team-image {
+}
+.team-item-title {
+}
+.team-item-text {
+}
+.footer {
+}
+.footer-copyrigth {
+}
+.form {
+}
+.form-input {
+}
+.form-btn {
 }
