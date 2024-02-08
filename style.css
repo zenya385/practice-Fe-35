@@ -1,10 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+main,
+body,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
 body {
   font-family: Roboto;
   line-height: normal;
 }
+.container{
+  width: 1200px;
+  margin:0 auto;
+}
+
 
 /* ===============header============= */
+
 .header {
+  display: flex;
+  padding: 17px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
   color: #95e1d3;
@@ -17,7 +55,10 @@ body {
 }
 .header-nav {
 }
-
+.nav-list{
+  display: flex;
+  gap:50px;
+}
 .nav-link {
   color: #95e1d3;
   font-family: Montserrat;
@@ -77,23 +118,23 @@ body {
 .team {
 }
 .team-subtitle {
-color: #333;
-font-family: "Kaushan Script";
-font-size: 24px;
-font-weight: 400;
+  color: #333;
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  font-weight: 400;
 }
 .team-title {
-color: #333;
-font-family: Montserrat;
-font-size: 30px;
-font-weight: 700;
-font-variant: all-small-caps;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
 }
 .team-text {
-color: #B6B6B6;
-text-align: center;
-font-size: 15px;
-font-weight: 400;
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
 }
 .team-list {
 }
@@ -102,41 +143,41 @@ font-weight: 400;
 .team-image {
 }
 .team-item-title {
-color: #333;
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-font-variant: all-small-caps;
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: all-small-caps;
 }
 .team-item-text {
-color: #B6B6B6;
-text-align: center;
-font-size: 15px;
-font-style: italic;
-font-weight: 300;
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
 }
 .footer {
 }
 .footer-copyrigth {
-color: #333;
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
 }
-.Laaqiq{
-color: #F38181;
+.Laaqiq {
+  color: #f38181;
 }
 .form {
 }
 .form-input {
 }
 .form-btn {
-color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-font-variant: all-small-caps;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
 }
