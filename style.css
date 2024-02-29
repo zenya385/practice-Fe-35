@@ -157,6 +157,7 @@ body {
 .team {
   text-align: center;
   margin-top: 100px;
+  
 }
 
 .team-subtitle {
@@ -194,11 +195,16 @@ body {
 
 .team-list {
   margin-top: 27px;
+  display: flex;
+  gap: 30px;
 }
 
 .team-item {}
 
-.team-image {}
+.team-image {
+  margin-bottom: 30px;
+
+}
 
 .team-item-title {
   color: #333;
@@ -207,6 +213,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   font-variant: all-small-caps;
+  margin-bottom: 11px;
 }
 
 .team-item-text {
